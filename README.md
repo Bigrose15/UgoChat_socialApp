@@ -1,8 +1,12 @@
-# React + Vite
+STEPS ON HOW THIS APP WAS DEVELOP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. i CREATED MY MY APP FOLDER ()
+   UGOCHAT, THEN CD INTO THE FOLDER
 
-Currently, two official plugins are available:
+2. NPM CREATE REACT VITE (npm create vite@latest .)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. I INSTALLED THE CHAKRA UI VERSION 2.10 using (npm i @chakra-ui/react@2 @emotion/react @emotion/styled framer-motion) from chakra ui library library documentation
+
+I also installed npm i react-router-dom react-icons
+
+4.
