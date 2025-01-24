@@ -4,14 +4,16 @@ import UserPage from "./Pages/UserPage";
 import PostPage from "./Pages/PostPage";
 import Header from "./Components/Header";
 import "./index.css";
+import UserHeader from "./Components/UserHeader";
 
 function App() {
   return (
     <Container maxW="620px">
       <Header />
+      {/* <UserHeader /> */}
       <Routes>
         <Route path="/:username" element={<UserPage />} />
-        <Route path="/:username/post/:pid" element={<PostPage />} />
+        <Route path="/postpage" element={<PostPage />} />
       </Routes>
     </Container>
   );
