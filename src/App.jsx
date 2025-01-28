@@ -4,7 +4,6 @@ import UserPage from "./Pages/UserPage";
 import PostPage from "./Pages/PostPage";
 import Header from "./Components/Header";
 import "./index.css";
-import UserHeader from "./Components/UserHeader";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
       {/* <UserHeader /> */}
       <Routes>
         <Route path="/:username" element={<UserPage />} />
-        <Route path="/postpage" element={<PostPage />} />
+        <Route path="/:username/post/:pId" element={<PostPage />} />
       </Routes>
     </Container>
   );

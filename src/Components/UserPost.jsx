@@ -1,6 +1,6 @@
 import { Flex, Avatar, Box, Image, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { BsThreeDots } from "react-icons/bs";
+import BsThreeDot from "./BsThreeDot";
 import Actions from "./Actions";
 
 const UserPost = ({ likes, replies, postImg, postTitle }) => {
@@ -60,7 +60,7 @@ const UserPost = ({ likes, replies, postImg, postTitle }) => {
               <Text fontSize="sm" color="gray.light">
                 2m
               </Text>
-              <BsThreeDots />
+              <BsThreeDot />
             </Flex>
           </Flex>
 
@@ -69,7 +69,7 @@ const UserPost = ({ likes, replies, postImg, postTitle }) => {
           {/*Post Image*/}
           {postImg && (
             <Box
-              borderRadius={"6"}
+              borderRadius={6}
               overflow={"hidden"}
               border={"1px solid"}
               borderColor={"gray.light"}
@@ -77,6 +77,8 @@ const UserPost = ({ likes, replies, postImg, postTitle }) => {
               <Image src={postImg} w={"full"} />
             </Box>
           )}
+
+          {/*Post Actions*/}
           <Flex gap={"{3}"} my={"1"}>
             <Actions />
           </Flex>
