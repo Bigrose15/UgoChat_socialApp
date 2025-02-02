@@ -79,27 +79,27 @@ const UserPost = ({ likes, replies, postImg, postTitle }) => {
           )}
 
           {/*Post Actions*/}
-          <Flex gap={"{3}"} my={"1"}>
-            <Actions />
-          </Flex>
+          {/* <Flex gap={"{3}"} my={"1"}> */}
+          <Actions />
+          {/* </Flex> */}
 
           {/*Post Stats*/}
-          <Flex gap={"2"} alignItems={"center"}>
-            {/*Post Replies*/}
-            <Text color={"gray.light"} fontSize={"sm"}>
-              {likes} likes
-            </Text>
-            <Box
-              w={"0.5"}
-              h={"0.5"}
-              borderRadius={"full"}
-              bg={"gray.light"}
-            ></Box>
-            {/*Post Likes*/}
-            <Text color={"gray.light"} fontSize={"sm"}>
-              {replies} replies
-            </Text>
-          </Flex>
+          {/* <Flex gap={"2"} alignItems={"center"}> */}
+          {/*Post Replies*/}
+          {/* <Text color={"gray.light"} fontSize={"sm"}> */}
+          {/* {likes} likes */}
+          {/* </Text> */}
+          {/* <Box */}
+          {/* w={"0.5"} */}
+          {/* h={"0.5"} */}
+          {/* borderRadius={"full"} */}
+          {/* bg={"gray.light"} */}
+          {/* ></Box> */}
+          {/*Post Likes*/}
+          {/* <Text color={"gray.light"} fontSize={"sm"}> */}
+          {/* {replies} replies */}
+          {/* </Text> */}
+          {/* </Flex> */}
         </Flex>
       </Flex>
     </Link>

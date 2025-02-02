@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import BsThreeDot from "../Components/BsThreeDot";
 import Actions from "../Components/Actions";
+import Comments from "../Components/Comments";
 
 const PostPage = ({ postImg, postTitle }) => {
   return (
@@ -68,6 +69,27 @@ const PostPage = ({ postImg, postTitle }) => {
         </Button>
       </Flex>
       <Divider my={4} />
+      <Comments
+        Comments="looks really good"
+        createdAt="1d"
+        username="ugo Law"
+        likes={100}
+        userAvatar="/LawrenceUgo.png"
+      />
+      <Comments
+        Comments="It's  a great App"
+        createdAt="1d"
+        username="Abramov"
+        likes={50}
+        userAvatar="https://bit.ly/dan-abramov"
+      />
+      <Comments
+        Comments="I love the App"
+        createdAt="1d"
+        username="Sage Adebayo"
+        likes={10}
+        userAvatar="https://bit.ly/sage-adebayo"
+      />
     </>
   );
 };
