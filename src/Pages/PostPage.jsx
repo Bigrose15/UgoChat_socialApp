@@ -35,7 +35,7 @@ const PostPage = ({ postImg, postTitle }) => {
       </Flex>
 
       {/* Post Text and Image section  */}
-      <Text my={3}>Let's talk about Ugochat</Text>
+      <Text my={3}>Welcome to UgoChat, We love to see you chat</Text>
       <Box
         borderRadius={6}
         overflow={"hidden"}
@@ -59,6 +59,8 @@ const PostPage = ({ postImg, postTitle }) => {
         </Text> */}
       {/* </Flex> */}
       <Divider my={4} />
+
+      {/* Ad Section */}
       <Flex justifyContent={"space-between"}>
         <Flex gap={2} alignItems={"center"}>
           <Text fontSize={"xl"}>👋 👉</Text>
@@ -69,6 +71,8 @@ const PostPage = ({ postImg, postTitle }) => {
         </Button>
       </Flex>
       <Divider my={4} />
+
+      {/* Comments  */}
       <Comments
         Comments="looks really good"
         createdAt="1d"
