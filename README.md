@@ -53,8 +53,31 @@ I also installed npm i react-router-dom react-icons
 
    1. I INTIALIZED NPM INIT -Y for the installation of the neccessary dependencies, and package.json file
 
-   2. I Installed this these depencies too express, jsonwebtoken, bcryptjs, dotenv, mongoose, cookie-parser
+   2. I Installed these depencies too express, jsonwebtoken, bcryptjs, dotenv, mongoose, cookie-parser
 
    3. I also installed nodemon using npm install -D nodemon, for instant server refresh, using npm,the D there mean install nodemon as development depencies, and not for production
 
-   4. In the package.json I added type as module to the depencies so I can be able to use import statement for the express instead of const
+   4. In the package.json, I added "type": "module" to enable the use of the import statement for Express instead of using const.
+
+   5. In the package.json file I changed the "test": "echo \"Error: no test specified\" && exit 1" under script to this ("scripts": {
+      "dev": "nodemon server.js",
+      "start": "node server.js"
+      }, )
+
+7. I created a server.js file to setup my server via express and also connected to port 5000
+
+8. Open a .env file too hide my important environment variables like PORT, and MONGO_URI
+
+9. Created a Database folder, for my database
+
+10. Open a dbConnect.js file which has the logic of connecting to the database via mongoose
+
+11. Imported dotenv, dbconnect.js in the server.js
+
+12. I created a models folder inside the backend directory to define models
+
+13. I created the models folder in the backend folder for my users modelling
+
+14. I created a user.models.js file inside the models folder and implemented the logic for the User model as the blueprint for each user.
+
+15. I also created a post.models.js file inside the models folder and implemented the logic for the post model.
