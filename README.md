@@ -81,3 +81,6 @@ I also installed npm i react-router-dom react-icons
 14. I created a user.models.js file inside the models folder and implemented the logic for the User model as the blueprint for each user.
 
 15. I also created a post.models.js file inside the models folder and implemented the logic for the post model.
+
+16. Added Routes folder for routing
+17. Open a user routes file

@@ -34,6 +34,7 @@ const postSchema = new Schema(
         text: {
           type: String,
           maxLength: 500,
+          required: true,
         },
 
         userProfileImage: {
